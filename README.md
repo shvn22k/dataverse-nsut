@@ -1,34 +1,22 @@
-# Malware Detection - Dataverse NSUT
+## Overview
 
-Android malware detection using ensemble gradient boosting models.
+This repository contains a collection of experiment scripts and submissions for a data challenge. It is a raw working directory, not a polished library or tutorial.
 
-## Project Structure
+## Note
 
-```
-dataverse-nsut/
-├── eda-and-exps/          # EDA notebooks and experiments
-├── submission-1/          # First submission files
-└── data/                  # Dataset files (not included in repo)
-```
+The scripts are pragmatic snapshots meant to run and produce outputs, not to explain methodology in depth. Many submissions were overwritten by new modidifications so can't say much. Haha.
 
-## Models
+## Structure
 
-- **XGBoost** - Gradient boosting with decision trees
-- **LightGBM** - Light gradient boosting machine
-- **Ensemble** - Weighted average of both models
+- `Round 1/` and `Round 2/`: folders with multiple submission variants and related utilities
+- `data/` references inside scripts point to local CSVs used for runs
+- Notebooks are for ad‑hoc exploration; they are not cleaned for publication
 
 
-## Setup
+Outputs (like submissions) are written next to the scripts.
 
-1. Install dependencies:
-```bash
-pip install pandas numpy scikit-learn xgboost lightgbm matplotlib seaborn
-```
+## Disclaimer
 
-2. Place data files in `data/` directory
-3. Run the training script
+This codebase is intentionally minimal on explanations and comments. It’s optimized for getting results, not for readability or education.
 
-## License
-
-MIT
 
